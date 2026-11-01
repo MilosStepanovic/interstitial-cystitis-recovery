@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>How I Beat Interstitial Cystitis — A Personal Recovery Story</title>
+<meta name="description" content="An honest memoir and practical guide: three years with interstitial cystitis (painful bladder syndrome), a change of diet, raw veganism, juice fasting and the road back to a normal life.">
+<meta name="keywords" content="interstitial cystitis, painful bladder syndrome, bladder pain syndrome, IC recovery story, IC memoir, juice fasting, raw vegan, autophagy">
+<meta name="author" content="Miloš Stepanović">
+<link rel="canonical" href="https://milosstepanovic.github.io/interstitial-cystitis-recovery/en/">
+<link rel="alternate" hreflang="en" href="https://milosstepanovic.github.io/interstitial-cystitis-recovery/en/">
+<link rel="alternate" hreflang="sr" href="https://milosstepanovic.github.io/interstitial-cystitis-recovery/sr/">
+<link rel="alternate" hreflang="x-default" href="https://milosstepanovic.github.io/interstitial-cystitis-recovery/en/">
+<meta property="og:type" content="book">
+<meta property="og:title" content="How I Beat Interstitial Cystitis">
+<meta property="og:description" content="An honest memoir and practical guide: three years with interstitial cystitis (painful bladder syndrome), a change of diet, raw veganism, juice fasting and the road back to a normal life.">
+<meta property="og:url" content="https://milosstepanovic.github.io/interstitial-cystitis-recovery/en/">
+<meta property="og:image" content="https://milosstepanovic.github.io/interstitial-cystitis-recovery/assets/og-en.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#18232a">
+<!-- google-site-verification: paste the meta tag from Google Search Console on the next line -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: dark slate opening band like the book cover, then a paper column; one gold accent, crimson only for the illness */
+:root{
+  --ink:#16201f; --paper:#f3f1ec; --surface:#fbfaf7; --text:#25292a; --muted:#5f6664; --rule:#d9d4c8;
+  --slate:#18232a; --slate-2:#22313a; --on-slate:#efe7d6; --gold:#b98f45; --gold-ink:#8a6526; --crimson:#9b2b2f; --heal:#d9837e;
+  --display:"Lora",Georgia,"Times New Roman",serif; --body:"Source Serif 4",Georgia,serif; --ui:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{--paper:#121a1e;--surface:#18232a;--text:#e6e1d6;--muted:#a3a9a6;--rule:#2f3d45;--gold-ink:#d2ad6b;--crimson:#e07a7c;color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--body);font-size:1.075rem;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--gold-ink)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.narrow{max-width:40rem}
+h1,h2,h3{font-family:var(--display);line-height:1.18;text-wrap:balance;margin:0}
+h2{font-size:clamp(1.6rem,3.2vw,2.15rem);color:var(--text)}
+.eyebrow{font-family:var(--ui);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink);font-weight:600}
+section{padding-block:clamp(3rem,7vw,5.5rem)}
+section + section{border-top:1px solid var(--rule)}
+
+/* top bar */
+.bar{background:var(--slate);color:var(--on-slate)}
+.bar .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:.8rem;font-family:var(--ui);font-size:.9rem}
+.bar a{color:var(--on-slate);text-decoration:none;opacity:.85}
+.bar a:hover{opacity:1;text-decoration:underline}
+.brand{font-family:var(--display);font-weight:600;letter-spacing:.02em}
+
+/* hero */
+.hero{background:radial-gradient(120% 90% at 70% 40%,var(--slate-2),var(--slate));color:var(--on-slate);padding-block:clamp(2.5rem,6vw,4.5rem) clamp(3rem,7vw,5rem)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.hero h1{font-size:clamp(2.3rem,5.6vw,4rem);font-weight:700;color:var(--on-slate);margin-top:.6rem}
+.hero .tag{font-family:var(--display);font-style:italic;color:var(--gold);font-size:clamp(1.15rem,2.2vw,1.45rem);margin:.9rem 0 0}
+.hero .lead{max-width:34rem;margin:1.4rem 0 0;color:#d6d2c7;font-size:1.12rem}
+.hero .eyebrow{color:var(--gold)}
+.cta{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:center;margin-top:2rem}
+.btn{display:inline-block;font-family:var(--ui);font-weight:600;font-size:1.02rem;text-decoration:none;padding:.95rem 1.6rem;border-radius:6px;background:var(--gold);color:#1a1408;transition:transform .15s ease,background .15s ease}
+.btn:hover{background:#cfa45a;transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--on-slate);border:1px solid rgba(239,231,214,.35)}
+.btn.ghost:hover{border-color:var(--gold);background:transparent}
+.price{font-family:var(--ui);font-size:.9rem;color:#b9b4a8}
+.price b{color:var(--on-slate);font-size:1.1rem}
+.cover{justify-self:center;width:min(100%,20rem);box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.06);border-radius:3px}
+
+/* symptoms */
+.you ul{list-style:none;padding:0;margin:1.6rem 0 0;display:grid;gap:.85rem}
+.you li{position:relative;padding-left:1.8rem}
+.you li::before{content:"";position:absolute;left:0;top:.55em;width:.7rem;height:.7rem;border-radius:50%;background:var(--crimson);box-shadow:0 0 0 4px color-mix(in srgb,var(--crimson) 18%,transparent)}
+.you .after{font-family:var(--display);font-style:italic;font-size:1.25rem;margin-top:1.8rem;color:var(--gold-ink)}
+
+/* story */
+.story .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2rem,5vw,4rem);align-items:start}
+.story p{margin:1rem 0 0}
+.tl{list-style:none;margin:1.4rem 0 0;padding:0;border-left:2px solid var(--rule)}
+.tl li{position:relative;padding:0 0 1.15rem 1.4rem}
+.tl li::before{content:"";position:absolute;left:-7px;top:.45em;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2px solid var(--gold)}
+.tl li:last-child::before{background:var(--gold)}
+.tl b{display:block;font-family:var(--ui);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-ink)}
+.photos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:3rem}
+.photos figure{margin:0}
+.photos img{aspect-ratio:3/4;object-fit:cover;width:100%;border-radius:3px;background:var(--rule)}
+.photos figcaption{font-family:var(--ui);font-size:.82rem;color:var(--muted);margin-top:.5rem}
+
+/* inside */
+.inside dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.8rem 2.4rem;margin:2rem 0 0}
+.inside dt{font-family:var(--display);font-weight:600;font-size:1.15rem}
+.inside dd{margin:.35rem 0 0;color:var(--muted)}
+
+/* excerpt */
+.excerpt{background:var(--surface)}
+.excerpt .text{margin-top:1.5rem;max-height:34rem;overflow:hidden;position:relative}
+.excerpt .text.open{max-height:none}
+.excerpt .text:not(.open)::after{content:"";position:absolute;inset:auto 0 0;height:9rem;background:linear-gradient(to bottom,transparent,var(--surface))}
+.excerpt h3{font-size:1.3rem;margin:2rem 0 .8rem}
+.excerpt p{margin:0 0 .9rem;text-align:left}
+.more{font-family:var(--ui);font-weight:600;background:none;border:1px solid var(--rule);color:var(--text);padding:.7rem 1.2rem;border-radius:6px;cursor:pointer;margin-top:1rem}
+.more:hover{border-color:var(--gold)}
+
+/* faq */
+.faq details{border-bottom:1px solid var(--rule);padding:1.1rem 0}
+.faq summary{font-family:var(--display);font-size:1.12rem;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.faq summary::after{content:"+";color:var(--gold-ink);font-family:var(--ui)}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:.7rem 0 0;color:var(--muted)}
+
+/* final */
+.final{background:var(--slate);color:var(--on-slate);text-align:center}
+.final h2{color:var(--on-slate);margin:0 auto;max-width:30rem}
+.final .cta{justify-content:center}
+footer{font-family:var(--ui);font-size:.86rem;color:var(--muted);padding-block:2.5rem}
+footer p{margin:0 0 .8rem;max-width:44rem}
+.crisis{border-left:3px solid var(--gold);padding-left:1rem}
+
+@media (max-width:760px){
+  .hero .wrap,.story .grid{grid-template-columns:minmax(0,1fr)}
+  .cover{order:-1;width:min(70%,15rem)}
+  .photos{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Book", "name": "How I Beat Interstitial Cystitis", "alternativeHeadline": "My Personal Journey to Recovery", "author": {"@type": "Person", "name": "Miloš Stepanović"}, "inLanguage": "en", "bookFormat": "https://schema.org/EBook", "image": "https://milosstepanovic.github.io/interstitial-cystitis-recovery/assets/cover-en.jpg", "url": "https://milosstepanovic.github.io/interstitial-cystitis-recovery/en/", "description": "An honest memoir and practical guide: three years with interstitial cystitis (painful bladder syndrome), a change of diet, raw veganism, juice fasting and the road back to a normal life.", "translationOfWork": {"@type": "Book", "name": "Kako sam pobedio intersticijalni cistitis", "inLanguage": "sr-Latn", "url": "https://milosstepanovic.github.io/interstitial-cystitis-recovery/sr/"}, "offers": {"@type": "Offer", "url": "https://payhip.com/b/bjy6K", "price": "40", "priceCurrency": "USD", "availability": "https://schema.org/InStock"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is interstitial cystitis?", "acceptedAnswer": {"@type": "Answer", "text": "Interstitial cystitis (IC), also called painful bladder syndrome or bladder pain syndrome, is a chronic condition with bladder pain and pressure and a frequent urge to urinate. Urine tests are usually sterile, so antibiotics don’t help."}}, {"@type": "Question", "name": "Is this a medical book?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is my personal experience and what helped me and the people I have worked with. It does not replace a doctor. The book has a dedicated safety section to read before any longer fast."}}, {"@type": "Question", "name": "What format do I get?", "acceptedAnswer": {"@type": "Answer", "text": "You get a PDF and an EPUB by email right after purchase. The PDF is for computers and tablets, the EPUB for phones and e-readers (Kindle, Apple Books)."}}, {"@type": "Question", "name": "Is there a Serbian edition?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The book is available in English and in Serbian."}}]}]</script>
+</head>
+<body>
+<header class="bar"><div class="wrap"><span class="brand">Miloš Stepanović</span><a href="../sr/" hreflang="sr" lang="sr-Latn">Srpski</a></div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <div class="eyebrow">My Personal Journey to Recovery</div>
+    <h1>How I Beat Interstitial Cystitis</h1>
+    <p class="lead">Three years of pain that never stopped, 62 sleepless nights, and doctors who honestly admitted they could not help. This is my story of how I got out of interstitial cystitis, and how I live today as if it had never happened.</p>
+    <div class="cta"><a class="btn" href="https://payhip.com/b/bjy6K" rel="noopener">Buy the book</a><a class="btn ghost" href="#odlomak">Read the first two chapters free</a></div>
+    <p class="price"><b>40 $</b> · PDF + EPUB · delivered instantly</p>
+  </div>
+  <img class="cover" src="../assets/cover-en.jpg" alt="How I Beat Interstitial Cystitis — Miloš Stepanović" width="900" height="1440">
+</div></section>
+
+<section class="you"><div class="wrap narrow">
+  <h2>Does this sound familiar?</h2>
+  <ul><li>A constant urge to urinate, with only a few drops to show for it</li><li>Burning and stabbing pain in the bladder, day and night</li><li>Sterile urine tests, and antibiotics that do nothing</li><li>Sleepless nights and the fear that your life is never coming back</li><li>Doctors telling you it is incurable and can only be managed</li></ul>
+  <p class="after">I went through all of it. I wrote this book for you.</p>
+</div></section>
+
+<section class="story"><div class="wrap">
+  <div class="grid">
+    <div><h2>My story, in short</h2><p>In the winter of 2019–2020 I got a bladder infection that would not go away. Then came urologists in two cities, ultrasounds, lab work, mountains of antibiotics and finally a cystoscopy: lesions across the bladder. The diagnosis was interstitial cystitis.</p><p>The illness cost me my career, my marriage and very nearly my life. Instead of another medicine, I started looking for a living person who had recovered. I found one in a Facebook group, on the other side of the world.</p><p>Then came raw veganism, juice fasting and finally a dry fast, which I did with guidance from someone experienced. Today I am healthy, I eat everything, and I live a normal life.</p></div>
+    <div><div class="eyebrow">The road, step by step</div><ol class="tl"><li><b>Winter 2019/20</b>A bladder infection that won’t go away</li><li><b>A year in</b>Cystoscopy: interstitial cystitis</li><li><b>6 months</b>Raw vegan eating, the first full nights of sleep</li><li><b>48 days</b>Juice fasting</li><li><b>7 days</b>A dry fast, guided by someone experienced</li><li><b>Today</b>Fully healthy, a daily 16/8 rhythm</li></ol></div>
+  </div>
+  <div class="photos"><figure><img src="../assets/before.jpg" alt="Miloš Stepanović: Before the illness" loading="lazy" width="600" height="800"><figcaption>Before the illness</figcaption></figure><figure><img src="../assets/illness.jpg" alt="Miloš Stepanović: The hardest period" loading="lazy" width="600" height="800"><figcaption>The hardest period</figcaption></figure><figure><img src="../assets/hardest.jpg" alt="Miloš Stepanović: A testimony of the hardest days" loading="lazy" width="600" height="800"><figcaption>A testimony of the hardest days</figcaption></figure><figure><img src="../assets/today.jpg" alt="Miloš Stepanović: Today" loading="lazy" width="600" height="800"><figcaption>Today</figcaption></figure></div>
+</div></section>
+
+<section class="inside"><div class="wrap">
+  <h2>What’s inside</h2>
+  <dl><div><dt>The confession</dt><dd>The whole story, from the first symptom to the last day of fasting, without polish.</dd></div><div><dt>Three paths to recovery</dt><dd>Raw veganism, juice fasting and water fasting, step by step, with meal schedules.</dd></div><div><dt>Returning to food</dt><dd>How to come back to eating safely after a fast, day by day.</dd></div><div><dt>Safety</dt><dd>Who longer fasts are not for, when to involve a doctor, and when to stop immediately.</dd></div><div><dt>Life after</dt><dd>How I keep my health today: the 16/8 rhythm and daily habits.</dd></div></dl>
+</div></section>
+
+<section class="excerpt" id="odlomak"><div class="wrap narrow">
+  <h2>Free excerpt</h2>
+  <p style="color:var(--muted);margin:.6rem 0 0">The first two chapters, exactly as they appear in the book.</p>
+  <div class="text" id="ex"><h3 id="chapter-i-introduction">Chapter I — Introduction</h3>
+<p>This book very nearly dreamed itself into nothingness in my mind and
+heart. It almost never got written down.</p>
+<p>That it is now recorded and published owes something to that
+near-loss, but also to a purpose: to reach out to, and help, the people
+who don’t merely suffer from this illness but live its hell in the first
+person.</p>
+<p>Doctors will tell you it won’t kill you — and yet you have never been
+closer to death, or to ending up there by your own hand. Research shows
+that a high percentage of patients take their own lives within the first
+three months of the illness. The rest usually aren’t followed at all,
+because they simply stop going to doctors, and a pale, incomplete
+statistic quietly counts them among the living.</p>
+<p>So, lest I forget while the memory is still fresh: on one side, my
+own tragedy, which cost me my career, my marriage, and very nearly my
+life; on the other, a debt to everyone who suffers from the same
+affliction and feels the ground giving way beneath them. Hence the pages
+that follow.</p>
+<p>All of this could easily be turned into a novel — just as each of
+you, my dear readers, could write a novel about your own ordeal. Yet
+precisely for your sake, I will set it in a blend of ¹what was truly
+lived and ²what is technically needed to make it a thing of the
+past.</p>
+<p>This book, then, will be something between an honest confession and a
+practical guide: how to make IC a thing of the past.</p>
+<h3
+id="chapter-ii-the-onset-an-unusually-severe-stubborn-bladder-infection">Chapter
+II — The Onset: An Unusually Severe, Stubborn Bladder Infection</h3>
+<p>In the winter of 2019–2020, after more than fifteen years, a bladder
+infection caught up with me. I admit I had been a little careless,
+dressing in clothes that weren’t really suited to working outdoors in
+winter. Then again, that winter wasn’t like the ones before it — it was
+noticeably warmer and milder — but it was clearly cold enough to <em>set
+it off</em>.</p>
+<p>As a boy, I’d had a few bladder infections, but only acute ones, and
+they passed almost the moment my mother pressed a bottle of hot water to
+my lower belly. Still, that pain stayed etched in my memory from
+childhood, because only someone who has ever had a bladder infection —
+even one that isn’t interstitial cystitis — knows how much a bladder
+hurts when it becomes “inflamed.”</p>
+<p>I assumed it was something acute again, something a hot-water bottle
+(a bit of local warmth) would fix. But this time, the thing simply
+wouldn’t go away…</p>
+</div>
+  <button class="more" id="more" type="button">Show the full excerpt</button>
+</div></section>
+
+<section class="faq"><div class="wrap narrow">
+  <h2>Questions</h2>
+  <div style="margin-top:1.2rem"><details><summary>What is interstitial cystitis?</summary><p>Interstitial cystitis (IC), also called painful bladder syndrome or bladder pain syndrome, is a chronic condition with bladder pain and pressure and a frequent urge to urinate. Urine tests are usually sterile, so antibiotics don’t help.</p></details><details><summary>Is this a medical book?</summary><p>No. It is my personal experience and what helped me and the people I have worked with. It does not replace a doctor. The book has a dedicated safety section to read before any longer fast.</p></details><details><summary>What format do I get?</summary><p>You get a PDF and an EPUB by email right after purchase. The PDF is for computers and tablets, the EPUB for phones and e-readers (Kindle, Apple Books).</p></details><details><summary>Is there a Serbian edition?</summary><p>Yes. The book is available in English and in Serbian.</p></details></div>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <h2>If you have read this far, this book is for you.</h2>
+  <div class="cta"><a class="btn" href="https://payhip.com/b/bjy6K" rel="noopener">Buy the book · 40 $</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <p>This page and the book describe the author’s personal experience and are not medical advice. Talk to your doctor before major dietary changes or any longer fast.</p>
+  <p class="crisis">If you are thinking about hurting yourself, you are not alone. In the US, call or text 988. Elsewhere, find a free, confidential helpline here: <a href="https://findahelpline.com" rel="noopener">findahelpline.com</a></p>
+  <p>© 2026 Miloš Stepanović</p>
+</div></footer>
+<script>
+document.getElementById('more').addEventListener('click',function(){document.getElementById('ex').classList.add('open');this.hidden=true;});
+</script>
+</body>
+</html>
